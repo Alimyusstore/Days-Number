@@ -1,0 +1,29 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: repeating-conic-gradient(rgb(131, 131, 224) 0%, rgb(108, 214, 204) 30%, rgb(99, 231, 169) 50%, rgb(171, 196, 136) 70%, bisque 90%, rgb(230, 238, 141) 100%);
+}
+label {
+    font-size: 1.5em;
+}
+
+input {
+    padding: 5px;
+    border-radius: 7px;
+    border: 0;
+    font-size: large;
+}
+
+button {
+    padding: 5px 20px;
+    font-size: 1.4em;
+    margin-top: 5px;
+    border-radius: 7px;
+    background-image: linear-gradient(to right, rgb(245, 137, 137), rgb(247, 108, 108), bisque);
+}
+
+button:active {
+    opacity: 0.5;
+}
